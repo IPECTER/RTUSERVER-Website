@@ -1,0 +1,45 @@
+site_name: 𝗥𝗧𝗨 𝗦𝗘𝗥𝗩𝗘𝗥
+theme:
+  name: material
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  logo: assets/favicon.png
+  icon:
+    logo: logo
+  palette:
+  - media: "(prefers-color-scheme: light)"
+    scheme: default
+    primary: indigo
+    toggle:
+      icon: material/weather-night
+      name: 다크 모드로 전환
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    primary: indigo
+    toggle:
+      icon: material/weather-sunny
+      name: 화이트 모드로 전환
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/IPECTER
+      name: 깃허브
+    - icon: fontawesome/brands/twitch
+      link: https://twitch.tv/ipecter
+      name: "트위치: 이팩터"
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/c/이팩터
+      name: "유튜브: 이팩터"
+    - icon: fontawesome/brands/twitch
+      link: https://twitch.tv/rtuserver
+      name: "트위치: RTU 서버"
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/@rtuserver
+      name: "유튜브: RTU 서버"
+    - icon: fontawesome/brands/github
+      link: https://github.com/IPECTER
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/rtuserver
+      name: "트위터"
